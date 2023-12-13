@@ -1,1 +1,60 @@
-Doz ka ka zao zazoza u û uza u. Doz û madopro ka u zao u ka uza. é madopro zao uza u doz u ka ka. Zazoza madopro û doz zao ka ka u u. U uza zazoza ka u doz û madopro zao. Ka zazoza û zao doz uza ka u madopro. Doz zazoza ka u madopro uza ka zao û. Madopro zazoza zao u ka ka doz uza û. U ka uza zazoza zao û doz madopro ka. Uza ka zazoza madopro u zao û ka u. Ka zazoza doz ka madopro û uza zao u. Zazoza madopro û uza u ka u doz zao. Zao madopro u u ka ka û zazoza uza. é doz uza u zazoza u zao madopro ka. Ka u zazoza u doz û madopro uza ka. Uza û u ka madopro zao ka doz u. é madopro u uza zazoza doz ka u ka. é u u zao madopro ka ka uza zazoza. U zazoza ka uza zao doz madopro u û. Doz zazoza uza û u u ka zao ka. Zao u doz ka ka zazoza û uza u. Madopro û doz ka uza zao ka u u. é ka madopro u u ka zao zazoza uza. Ka u madopro û uza ka u doz zazoza. U u ka uza ka û zazoza doz madopro. Zao ka û uza doz u zazoza u madopro. é uza u doz zao zazoza madopro ka u. é ka madopro u ka zazoza u doz zao. Zazoza madopro u zao uza ka û doz u. Madopro zazoza zao uza û doz ka u ka. Ka doz madopro u uza zazoza zao u ka. Madopro u u uza zao ka û ka zazoza. Ka u zao u madopro doz uza zazoza û. Doz madopro zao ka zazoza u u û uza. Madopro u ka zazoza doz zao uza u û. é ka u zazoza zao madopro doz uza ka. Uza û u ka ka doz madopro u zazoza. U u madopro ka û ka zao uza doz. Doz u ka madopro ka uza zao u zazoza. Ka ka uza u zao û doz u zazoza. Ka u ka doz uza zao u madopro û. Zao u doz ka ka uza u madopro zazoza. Zao doz madopro uza zazoza ka u û ka. Ka zazoza û ka doz u zao u madopro. Zao uza ka ka û u u zazoza doz. Zao doz u zazoza uza ka û u ka. Doz ka madopro uza u û u zao ka. Zao ka ka madopro u doz zazoza û uza. Madopro zao uza u ka doz û u zazoza. U madopro ka u uza zao doz ka zazoza. Doz ka uza ka u zao u zazoza û. Uza ka zao û madopro doz zazoza u ka. é ka u ka u uza doz zazoza zao. Madopro ka zazoza u zao doz uza u û. Ka doz û u ka madopro zazoza zao uza. Doz zazoza ka madopro u û uza ka u. Doz zazoza ka u uza madopro û ka u. Doz ka zao ka zazoza û u uza madopro. Doz u zazoza madopro uza u ka ka zao. Ka u madopro doz û zazoza ka zao uza. Zazoza ka uza u u doz ka û madopro. Zazoza û ka zao uza u doz madopro u. U zazoza uza u ka ka doz û madopro. Madopro ka zazoza u uza zao û u doz. Ka ka uza u û zao doz zazoza u. Doz u madopro ka uza zazoza u û zao. U u ka uza doz zao ka madopro zazoza. Doz madopro zao û zazoza uza ka u u. U zazoza ka zao u û uza ka madopro. Zazoza ka zao madopro û uza u doz ka. Doz zao û uza zazoza ka u ka madopro. Madopro u zazoza ka ka doz û zao u. Doz zao ka u ka uza û zazoza madopro. Ka ka zazoza uza u u û zao madopro. U ka zao zazoza doz ka uza û u. Ka u zao û madopro ka uza doz zazoza. Madopro u ka û uza u doz zazoza zao. U zao ka doz zazoza û u uza madopro. U zao û zazoza uza u doz ka ka. Madopro u ka zazoza u zao uza doz û. U uza doz ka zao u û madopro zazoza. Ka zazoza madopro zao uza ka doz û u. é zazoza doz ka u u madopro uza ka. Zazoza û ka ka uza u madopro doz u. Zao û ka madopro u zazoza uza doz u. Uza madopro û u zao ka zazoza u doz. Ka zazoza madopro uza ka û zao doz u. Madopro ka û u zazoza ka zao doz u. é ka ka u uza doz zao madopro u. Ka u doz madopro zao û uza zazoza u. Ka û u zazoza u uza zao doz madopro. Zazoza û ka u zao ka u doz madopro. Madopro uza u zao ka zazoza u doz û. Zao uza madopro ka doz zazoza u ka û. é zazoza ka doz madopro ka u uza u. Zazoza u û doz madopro u ka ka uza. Madopro uza u u ka û zao doz ka. Zazoza madopro zao u uza u doz ka ka. Ka zao ka u u madopro uza doz û. U uza ka û zao zazoza ka doz u.
+import random
+
+def generate_syllable_word():
+    syllables = [
+        "Na", "po", "ƒç√°t", "ku", "stvo", "≈ôil", "B≈Øh", "ne", "be", "a", "ze", "mi", "Ze", "mƒõ", "by", "la", "pus",
+        "t√°", "pr√°zd", "n√°", "nad", "pro", "past", "nou", "t≈Ø", "n√≠", "tma", "A", "le", "vo", "da", "vz", "n√°", "≈°el",
+        "se", "duch", "Bo", "≈æ√≠", "I", "≈ôekl", "Buƒè", "svƒõt", "lo", "Vi", "dƒõl", "≈æe", "je", "do", "br√©", "od", "dƒõ",
+        "lil", "Svƒõt", "lo", "naz", "val", "dnem", "tmu", "no", "c√≠", "Byl", "ve", "ƒçer", "jit", "ro", "den", "prv",
+        "n√≠", "klen", "ba", "u", "prost≈ôed", "vod", "pod", "bem", "sto", "ka≈æ", "sou≈°", "Sou≈°", "mo", "≈ôi", "to", "Bu",
+        "ta", "k√©", "≈ôekl", "Za", "ze", "le", "nej", "n√Ωm", "stro", "mov", "√≠m", "ho", "dru", "hu", "plo", "dy", "Ze",
+        "le≈à", "vy", "da", "ze", "hy", "by", "li", "n", "roz", "mno", "≈æu", "j√≠", "se", "me", "ny", "se", "tak", "Ze",
+        "le≈à", "vy", "da", "hy", "by", "li", "n", "roz", "mno", "≈æu", "j√≠", "se", "me", "ny", "tak", "Za", "ze", "le",
+        "nej", "se", "ze", "le", "n√≠", "a", "se", "me", "ny", "ze", "le≈à", "vy", "da", "hy", "by", "li", "n", "roz",
+        "mno", "≈æu", "j√≠", "se", "me", "ny", "a", "hy", "stro", "mov", "√≠", "ne", "se", "plo", "dy", "se", "se", "me",
+        "ny", "Vi", "dƒõl", "≈æe", "to", "br√©", "Byl", "ve", "ƒçer", "jit", "ro", "den", "t≈ôe", "t√≠", "Bu", "te", "svƒõt",
+        "la", "ne", "be", "sk√©", "klen", "bƒõ", "va", "la", "den", "od", "no", "ci", "Bu", "dou", "na", "zna", "men√≠",
+        "ƒça", "s≈Ø", "dn≈Ø", "let", "Ta", "svƒõt", "la", "a≈•", "jsou", "na", "ne", "be", "sk√©", "klen", "bƒõ", "a", "sv√≠",
+        "ti", "la", "nad", "ze", "m√≠", "sta", "lo", "se", "tak", "U", "ƒçi", "nil", "te", "de", "dvƒõ", "k√°", "vƒõt", "≈°√≠",
+        "a", "vl√°", "dlo", "ve", "dne", "me", "n≈°√≠", "v", "no", "ci", "u", "ƒçi", "nil", "i", "hvƒõz", "dy", "um√≠", "stil",
+        "a", "v", "no", "ci", "od", "dƒõ", "lo", "va", "la", "svƒõt", "lo", "tak", "Byl", "ve", "ƒçer", "jit", "ro", "den",
+        "ƒçtvr", "t√Ω", "Bu", "He", "m≈æete", "vo", "dy", "≈æi", "vo", "ƒçi≈°", "nou", "ha", "vƒõ", "t√≠", "l√©t", "av", "ci",
+        "l√©", "tej", "te", "nad", "ze", "m√≠", "pod", "ne", "be", "skou", "klen", "bou", "I", "stvo", "≈ôil", "B≈Øh", "ve",
+        "li", "k√©", "net", "vo", "ry", "roz", "ma", "ni", "t√©", "dru", "hy", "v≈°e", "li", "ja", "k", "√Ωch", "hbi", "t√Ωch",
+        "≈æi", "vo", "ƒçich≈Ø", "ji", "mi≈æ", "se", "za", "hem", "≈æi", "ly", "vo", "dy", "stvo", "≈ôil", "i",
+    ]
+    syllable_count = random.randint(1, 4)
+    word = ""
+    for _ in range(syllable_count):
+        word += random.choice(syllables)
+    return word
+
+def add_new_words(lorem_ipsum_words, count=10):
+    for _ in range(count):
+        custom_word = generate_syllable_word()
+        lorem_ipsum_words.append(custom_word)
+
+def generate_lorem_ipsum(sentence_count=int(input("Zadejte poƒçet vƒõt kter√Ω chcete vytvo≈ôit ")), words_per_sentence=random.randint(5, 12)):
+    lorem_ipsum = []
+    for _ in range(sentence_count):
+        lorem_ipsum_words = []
+        add_new_words(lorem_ipsum_words, count=10)
+        sentence = " ".join(random.sample(lorem_ipsum_words, words_per_sentence))
+        lorem_ipsum.append(sentence.capitalize() + ".")
+        
+    return " ".join(lorem_ipsum)
+
+lorem_ipsum_txt = generate_lorem_ipsum()
+print(lorem_ipsum_txt)
+
+user_choice = input("Chcete vytvo≈ôit textov√Ω dokument ? ano/ne: ").lower()
+if user_choice == "ano":
+    file_name = input("Zadejte n√°zev souboru ") + ".txt"
+    with open(file_name, 'w') as file:
+        file.write(lorem_ipsum_txt)
+    print(f"soubor - {file_name} byl vytvo≈ôen")
+    
+elif user_choice == "ne":
+    print("Textov√Ω soubor nevytvo≈ôen")
+else:
+    print("nezn√°m√Ω vstup, zadejte ano/ne")
