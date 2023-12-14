@@ -2,27 +2,23 @@ import random
 
 def generate_syllable_word():
     syllables = [
-        "Na", "po", "čát", "ku", "stvo", "řil", "Bůh", "ne", "be", "a", "ze", "mi", "Ze", "mě", "by", "la", "pus",
-        "tá", "prázd", "ná", "nad", "pro", "past", "nou", "tů", "ní", "tma", "A", "le", "vo", "da", "vz", "ná", "šel",
-        "se", "duch", "Bo", "ží", "I", "řekl", "Buď", "svět", "lo", "Vi", "děl", "že", "je", "do", "bré", "od", "dě",
-        "lil", "Svět", "lo", "naz", "val", "dnem", "tmu", "no", "cí", "Byl", "ve", "čer", "jit", "ro", "den", "prv",
-        "ní", "klen", "ba", "u", "prostřed", "vod", "pod", "bem", "sto", "kaž", "souš", "Souš", "mo", "ři", "to", "Bu",
-        "ta", "ké", "řekl", "Za", "ze", "le", "nej", "ným", "stro", "mov", "ím", "ho", "dru", "hu", "plo", "dy", "Ze",
-        "leň", "vy", "da", "ze", "hy", "by", "li", "n", "roz", "mno", "žu", "jí", "se", "me", "ny", "se", "tak", "Ze",
-        "leň", "vy", "da", "hy", "by", "li", "n", "roz", "mno", "žu", "jí", "se", "me", "ny", "tak", "Za", "ze", "le",
-        "nej", "se", "ze", "le", "ní", "a", "se", "me", "ny", "ze", "leň", "vy", "da", "hy", "by", "li", "n", "roz",
-        "mno", "žu", "jí", "se", "me", "ny", "a", "hy", "stro", "mov", "í", "ne", "se", "plo", "dy", "se", "se", "me",
-        "ny", "Vi", "děl", "že", "to", "bré", "Byl", "ve", "čer", "jit", "ro", "den", "tře", "tí", "Bu", "te", "svět",
-        "la", "ne", "be", "ské", "klen", "bě", "va", "la", "den", "od", "no", "ci", "Bu", "dou", "na", "zna", "mení",
-        "ča", "sů", "dnů", "let", "Ta", "svět", "la", "ať", "jsou", "na", "ne", "be", "ské", "klen", "bě", "a", "sví",
-        "ti", "la", "nad", "ze", "mí", "sta", "lo", "se", "tak", "U", "či", "nil", "te", "de", "dvě", "ká", "vět", "ší",
-        "a", "vlá", "dlo", "ve", "dne", "me", "nší", "v", "no", "ci", "u", "či", "nil", "i", "hvěz", "dy", "umí", "stil",
-        "a", "v", "no", "ci", "od", "dě", "lo", "va", "la", "svět", "lo", "tak", "Byl", "ve", "čer", "jit", "ro", "den",
-        "čtvr", "tý", "Bu", "He", "mžete", "vo", "dy", "ži", "vo", "čiš", "nou", "ha", "vě", "tí", "lét", "av", "ci",
-        "lé", "tej", "te", "nad", "ze", "mí", "pod", "ne", "be", "skou", "klen", "bou", "I", "stvo", "řil", "Bůh", "ve",
-        "li", "ké", "net", "vo", "ry", "roz", "ma", "ni", "té", "dru", "hy", "vše", "li", "ja", "k", "ých", "hbi", "tých",
-        "ži", "vo", "čichů", "ji", "miž", "se", "za", "hem", "ži", "ly", "vo", "dy", "stvo", "řil", "i",
-    ]
+        'na', 'po', 'čát', 'ku', 'stvo', 'řil', 'bůh', 'ne', 'be', 'a', 'ze', 'mi', 'mě', 'by', 'la', 'pus', 'tá', 'prázd', 'ná', 'nad', 'pro', 'past', 'nou', 'tů', 'ní', 
+'tma', 'A', 'le', 'vo', 'da', 'vz', 'šel', 'se', 'duch', 'Bo', 'ží', 'I', 'řekl', 'Buď', 'svět', 'lo', 'Vi', 'děl', 'že', 'je', 'do', 'bré', 'od', 'dě', 'lil', 
+'Svět', 'naz', 'val', 'dnem', 'tmu', 'no', 'cí', 'Byl', 've', 'čer', 'jit', 'ro', 'den', 'prv', 'klen', 'ba', 'u', 'prostřed', 'vod', 'pod', 'bem', 'sto', 'kaž', 
+'souš', 'Souš', 'mo', 'ři', 'to', 'Bu', 'ta', 'ké', 'Za', 'nej', 'ným', 'stro', 'mov', 'ím', 'ho', 'dru', 'hu', 'plo', 'dy', 'Ze', 'leň', 'vy', 'hy', 'li', 'n', 
+'roz', 'mno', 'žu', 'jí', 'me', 'ny', 'tak', 'í', 'tře', 'tí', 'te', 'ské', 'bě', 'va', 'ci', 'dou', 'zna', 'mení', 'ča', 'sů', 'dnů', 'let', 'Ta', 'ať', 'jsou', 
+'sví', 'ti', 'mí', 'sta', 'U', 'či', 'nil', 'de', 'dvě', 'ká', 'vět', 'ší', 'vlá', 'dlo', 'dne', 'nší', 'v', 'i', 'hvěz', 'umí', 'stil', 'čtvr', 'tý', 'He', 'mžete',
+ 'ži', 'čiš', 'ha', 'vě', 'lét', 'av', 'lé', 'tej', 'skou', 'bou', 'Bůh', 'net', 'ry', 'ma', 'ni', 'té', 'vše', 'ja', 'k', 'ých', 'hbi', 'tých', 'čichů', 'ji', 
+'miž', 'za', 'hem', 'ly', 'kon', 'če', 'sa', 'svý', 'zás', 'tu', 'py', 'sed', 'mé', 'd', 'čil', 'své', 'dí', 'kte', 'ré', 'ko', 'nal', 'pře', 'stal', 'nat', 'veš',
+ 'ke', 'hna', 'l', 'pos', 'til', 'mý', 'neboť', 'něm', 'tel', 'pis', 'jak', 'ře', 'kdy', 'hospodin', 'ještě', 'žád', 'né', 'pol', 'křo', 'vis', 'ani', 'cha', 'vla',
+ 'žo', 'deštěm', 'člo', 'ka', 'rý', 'ob', 'lá', 'jen', 'zá', 'pla', 'stu', 'pá', 'ce', 'lý', 'zem', 'ský', 'vrch', 'tvo', 'pra', 'ch', 'vd', 'echl', 'mu', 'chří', 'pí',
+ 'dech', 'věk', 'vým', 'rem', 'sadil', 'har', 'du', 'e', 'nu', 'východě', 'vil', 'tam', 'dal', 'růst', 'ví', 'žá', 'hled', 's', 'dob', 'jíd', 'lu', 'střed', 'hra', 'pak',
+ 'poz', 'z', 'chá', 'zí', 'tud', 'dál', 'čty', 'hla', 'vní', 'ky', 'jmé', 'šon', 'ten', 'níž', 'zlato', 'zla', 'skvě', 'von', 'prys', 'men', 'kar', 'ol', 'hé', 'gí', 'chón', 
+'kúš', 'chi', 'kel', 'východně', 'asý', 'rie', 'eu', 'frat', 'hrady', 'stře', 'žil', 'při', 'kázal', 'dé', 'smíš', 'jíst', 'však', 'jez', 'kdybys', 'ně', 'jedl', 'pad', 'neš', 
+'smrti', 'aby', 'byl', 'sám', 'ním', 'moc', 'vnou', 'když', 'zvěř', 'ptač', 'vedl', 'vi', 'nazve', 'dý', 'vý', 'r', 'měl', 'jme', 'vat', 'jej', 'zví', 'řa', 'ale', 'šla', 'vná', 'uvedl',
+'mra', 'až', 'us', 'nul', 'vzal', 'dno', 'jeho', 'ber', 'vr', 'el', 'sem', 'ut', 'bra', 'ženu', 'zvo', 'lal', 'kost', 'mých', 'kos', 'tě', 'ženou', 'zý', 'vá', 'vždyť', 'vzat', 'jest',
+ 'opu', 'stí', 'muž', 'ot', 'mat', 'lne', 'ženě', 'jed', 'lem', 'oba', 'dva', 'žena', 'sty'
+   ]
     syllable_count = random.randint(1, 4)
     word = ""
     for _ in range(syllable_count):
