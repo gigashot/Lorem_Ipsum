@@ -1,5 +1,5 @@
 # Generátor Lorem Ipsum - Bible
-Tento Python skript generuje text podobný Lorem Ipsum pomocí vlastního algoritmu pro generování slov na základě slabikkterý napodobuje znění - Genesis 1, 2. 
+Tento Python skript generuje text podobný Lorem Ipsum pomocí vlastního algoritmu pro generování slov na základě slabik který napodobuje znění - Genesis 1, 2. 
 
 slabiky jsem získal rozdělením všech slov v Genesis 1, 2, z Bible na slabiky (pouze slabiky s max 3 znaky [pro lepší čitelnost textu]) odstrannil jsem všechna velká písmena, čárky a tečky mezi větami a slovy, odstranil jsem všechny duplicitní stringy, slabiky jsem následně přepsal do syllables = []
 
